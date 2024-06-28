@@ -1,0 +1,534 @@
+/* ________________________________\Nav & Body/________________________________ */
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/background-gif.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	font-family: 'Bubblegum Sans';
+}
+
+#navbar{
+	display: none;
+}
+
+#toggle{
+	display: none;
+}
+
+nav{
+	width: 40%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+nav ul {
+	list-style-type: none;
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+nav ul li{
+	color: white;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover{
+	color: orange;
+	border-bottom: solid 2px orange;
+}
+
+/* ________________________________\Accueil/________________________________ */
+
+.containertxt{
+	margin-right: 2%;
+	margin-left: 90%;
+}
+
+.containertxt span{
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+.linkedin-icon{
+	margin-left: 90%;
+}
+
+.linkedin-icon img{
+	width: 20%;
+	padding-inline: 1rem;
+	padding-top: 5%;
+}
+
+.linkedin-icon img:hover{
+	transition: all 1s;
+	scale: 120%;
+}
+
+.Accueil{
+	width: 100%;
+	display: flex;
+	margin-top: 1.5%;
+	position: fixed;
+	flex-direction: column;
+	z-index: 1000;
+}
+
+/* ________________________________\A Propos/________________________________ */
+
+.containerimg{
+	margin: 3%;
+}
+
+.containerimg img{
+	width: 20%;
+	border-radius: 100%;
+}
+.containertxt2{
+	background-color: white;
+	border-radius: 20px;
+	width: 40%;
+}
+
+.containertxt2 h1{
+	text-align: center;
+	font-size: 100px;
+}
+
+.containertxt2 p{
+	text-align: center;
+	padding: 15px;
+	
+}
+
+#accroche{
+	text-align: center;
+}
+
+#APropos{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+	margin: 0 auto;
+	height: 1000px;
+}
+
+/* ________________________________\Competences/________________________________ */
+
+#Competences{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+	margin: 0 auto;
+	height: 1000px;
+}
+
+.Dev{
+	background: white;
+	border-radius: 40px;
+	width: 50%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	margin-right: 2.5%;
+	transition: scale 1s;
+	transition: margin-right 1s;
+	transition: margin-left 1s;
+}
+
+.Dev:hover{
+	scale: 120%;
+	margin-left: 5%;
+	margin-right: 5%;
+	transition-duration: 1s;
+}
+
+#titledev{
+	width: 50%;
+	height: 10%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+	padding: 2%;
+}
+
+.group{
+	justify-content: center;
+	align-items: center;
+}
+
+.group_images{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-bottom: 3%;
+}
+
+.group_images2{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 3%;
+}
+
+.imgcomp{
+	width: 10%;
+	height: 5%;
+	margin-bottom: 1%;
+	margin: 0 auto;
+}
+
+.Réseau{
+	background: white;
+	border-radius: 40px;
+	width: 50%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	margin-right: 2.5%;
+	transition: scale 1s;
+	transition: margin-right 1s;
+	transition: margin-left 1s;
+}
+
+.Réseau:hover{
+	scale: 120%;
+	transition-duration: 1s;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#titlereseau{
+	width: 50%;
+	height: 10%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
+.langues{
+	background: white;
+	border-radius: 40px;
+	width: 50%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	margin-right: 2.5%;
+	transition: scale 1s;
+	transition: margin-right 1s;
+	transition: margin-left 1s;
+}
+
+.langues:hover{
+	scale: 120%;
+	transition-duration: 1s;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#titlelang{
+	width: 50%;
+	height: 10%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
+
+
+/* ________________________________\Expériences/________________________________ */
+
+.Exp{
+	width: 100%;
+	align-items: center;
+	height: 1000px;
+}
+
+.titleexp{
+	height: 25%;
+	display: flex;
+	margin-bottom: 3%;
+}
+
+.titleexp img{
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 40px;
+}
+
+.Renault{
+	margin-right: 3%;
+	text-align: center;
+	background: white;
+	border-radius: 40px;
+	width: 250px;
+	height: fit-content;
+	transition: scale 1s;
+}
+
+.Renault img{
+	width: 50%;
+	height: 10%;
+}
+
+.Renault:hover{
+	scale: 120%;
+	transition-duration: 1s;
+}
+
+.LIDL{
+	text-align: center;
+	margin-right: 3%;
+	background: white;
+	border-radius: 40px;
+	width: 250px;
+	height: fit-content;
+	transition: scale 1s;
+}
+
+.LIDL img{
+	width: 50%;
+	height: 10%;
+	margin-top: 2%;
+}
+
+.LIDL:hover{
+	scale: 120%;
+	transition-duration: 1s;
+}
+
+.BurgerKing{
+	text-align: center;
+	background: white;
+	border-radius: 40px;
+	width: 250px;
+	margin-right: 3%;
+	height: fit-content;
+	transition: scale 1s;
+}
+
+.BurgerKing img{
+	width: 50%;
+	margin-top: 2%;
+	height: 10%;
+}
+
+.BurgerKing:hover{
+	scale: 120%;
+	transition-duration: 1s;
+}
+
+.linkcv{
+	text-align: center;
+	background: white;
+	border-radius: 40px;
+	width: 250px;
+	height: fit-content;
+	transition: scale 1s;
+}
+
+.linkcv img{
+	width: 50%;
+	margin-top: 2%;
+	height: 10%;
+}
+
+.linkcv:hover{
+	scale: 120%;
+	border: solid 3px #00e204;
+	transition-duration: 1s;
+}
+
+/* ________________________________\Formations/________________________________ */
+
+.Formation{
+	width: 100%;
+	align-items: center;
+	height: 1000px;
+}
+
+.titleformation{
+	height: 25%;
+	display: flex;
+	margin-bottom: 3%;
+}
+
+.titleformation img{
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 40px;
+}
+
+.flexbox{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.Sturs{
+	margin-right: 3%;
+	text-align: center;
+	background: white;
+	border-radius: 40px;
+	width: 250px;
+	height: fit-content;
+	transition: scale 1s;
+	font-size: 85%;
+}
+
+.Sturs img{
+	width: 50%;
+	margin-top: 2%;
+	height: 20%;
+}
+
+.Sturs:hover{
+	scale: 120%;
+	transition-duration: 1s;
+}
+
+.caensup{
+	margin-right: 3%;
+	text-align: center;
+	background: white;
+	border-radius: 40px;
+	width: 250px;
+	height: fit-content;
+	transition: scale 1s;
+	font-size: 85%;
+}
+
+.caensup img{
+	width: 50%;
+	margin-top: 2%;
+	height: 10%;
+}
+
+.caensup:hover{
+	scale: 120%;
+	transition-duration: 1s;
+}
+
+/* ________________________________\Contact/________________________________ */
+
+.Contact{
+	width: 100%;
+	align-items: center;
+	height: 1000px;
+}
+
+.titlecontact{
+	height: 25%;
+	display: flex;
+	margin-bottom: 3%;
+}
+
+.titlecontact img{
+height: 100%;
+margin: 0 auto;
+border-radius: 40px;
+}
+
+.form_mail{
+	text-align: center;
+	background: white;
+	border-radius: 40px;
+	width: 250px;
+	padding: 2%;
+}
+
+.form_mail form input{
+	background-color: #333633;
+	border-radius: 40px;
+	color: white;
+}
+
+.form_mail textarea{
+	margin-top: 3%;
+	background-color: #333633;
+	color: white;
+}
+
+/* ________________________________\Footer/________________________________ */
+
+.foot{
+	text-align: center;
+	color: white;
+	width: 100%;
+	background-color:#333633;
+}
+
+.foot span{
+	text-shadow:1px 1px 2px black;
+}
+
+.foot a{
+	text-decoration: none;
+	margin-top: 1%;
+	color: white;
+}
+
+.foot a:hover{
+	color: cyan;
+	font-size: 15px;
+}
+
+
+
+/* ________________________________\Media-Transform/________________________________ */
+
+@media screen and (max-width : 1000px) {
+	.containertxt{
+		display: none;
+	}
+	
+	.containertxt span{
+		display: none;
+	}
+
+	.linkedin-icon img{
+		width: 40%;
+	}
+}
+
+@media screen and (max-width : 700px){
+	.containertxt2 h1{
+		display: none;
+	}
+}
+
+@media screen and (max-width : 950px){
+	.liste{
+        display: none;
+		width: 30%;
+	}
+	
+	#navbar{
+		display: flex;
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+
+	#toggle:hover{
+		width: fit-content;
+	}
+
+	#toggle:checked + .liste{
+		display: flex;
+		flex-direction: column;
+		padding: 12.5%;
+	}
+}
